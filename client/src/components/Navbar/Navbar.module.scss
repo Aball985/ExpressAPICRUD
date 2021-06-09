@@ -1,0 +1,28 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2rem;
+}
+
+.navbar-logo {
+  display: flex;
+  font-size: 2rem;
+  text-decoration: none;
+  color: #000;
+  font-weight: 900;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 24px;
+  list-style: none;
+  .navbar-link {
+    padding: 1rem;
+    text-decoration: none;
+    color: black;
+  }
+}
+
+.navbar-item {
+}
