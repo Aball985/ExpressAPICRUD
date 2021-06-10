@@ -1,10 +1,12 @@
 import { Component } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import {
+  AddTutorial,
+  Navbar,
+  Tutorial,
+  TutorialList,
+} from "./components/components.index";
 
-import AddTutorial from "./components/AddTutorial.component";
-import Navbar from "./components/Navbar/Navbar.component";
-import Tutorial from "./components/Tutorial.component";
-import TutorialList from "./components/TutorialList.component";
 import Homepage from "./pages/Homepage/Home.page";
 
 export default class App extends Component {
